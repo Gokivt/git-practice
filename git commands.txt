@@ -1,0 +1,25 @@
+git init --> To intialize
+
+git  config --global user.name "Gopalakrishnan" -->To add the user name in the config
+
+git config --global user.email "Email@test.com" -->To add the email in the config
+
+git working flow:
+================
+Working Directory--> Staging area-->Commit-->Git Hub(Repo)
+
+git status -->To get the latest status of the working directory. To shows both tracked and untracked files
+
+git add "Filename.extension" -->To move the untracked files to tracking list
+
+git add . -->To move all the untracked filed to tracking list
+
+git commit -m "Commit message" -->To commit all the files to staging area 
+
+git commit -am "Commit message" -->To add and commit all files to staging area
+
+git remote add orign "git hub repository url" --> To build the relationship between git and git repo
+
+git push orign master --> To push the changes/ code to git hub repo
+
+git pull orign master --> To pull the changes/ code from git hub repo
